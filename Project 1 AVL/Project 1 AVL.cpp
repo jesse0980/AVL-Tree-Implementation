@@ -26,6 +26,7 @@ int main()
 
     //take in number of commands
     int commands = 0;
+    cout << "Enter the number of commands: ";
     cin >> commands;
     string command;
     cin.ignore(1000, '\n');
